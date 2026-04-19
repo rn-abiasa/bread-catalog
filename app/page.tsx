@@ -142,7 +142,7 @@ export default function Home() {
             {filteredProducts.map((product, index) => (
               <div
                 key={product.id}
-                className="bg-card border border-border w-44 md:w-64 max-w-sm rounded-4xl shadow flex flex-col justify-center items-center p-2 relative transition-transform hover:-translate-y-2 hover:shadow-xl duration-300 animate-in fade-in slide-in-from-bottom-8"
+                className="bg-card border border-border w-40 md:w-64 max-w-sm rounded-4xl shadow flex flex-col justify-center items-center p-2 relative transition-transform hover:-translate-y-2 hover:shadow-xl duration-300 animate-in fade-in slide-in-from-bottom-8"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <img
